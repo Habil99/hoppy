@@ -1,0 +1,271 @@
+<html class="no-js" lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="tags for website">
+  <meta name="description" content="front-end starter">
+  <meta name="author" content="Labrin.net">
+
+  <title> Home - Project Title </title>
+
+  <link rel="stylesheet" href="css/bootstrap-select.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <div class="container">
+      <div class="row headerMain">
+        <div class="col-md-2 col-8 logo">
+          <a href="">
+            <img class="img-fluid" src="../assets/logo.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-7">
+          <ul class="pagesLink">
+            <li><a href="">how it works</a></li>
+            <li><a href="">buy for me</a></li>
+            <li><a href="">shipping calculator</a></li>
+            <li><a href="">news</a></li>
+            <li><a href="">contacts</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 langLogin">
+          <select id="selectLanguages">
+            <option value="AZE">AZE</option>
+            <option value="EN">EN</option>
+            <option value="RU">RU</option>
+          </select>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              SHAIG MURADOV
+            </button>
+            <i class="fa fa-bell"></i>
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item" type="button">My foreign addresses</button>
+              <button class="dropdown-item" type="button">ORDERS</button>
+              <button class="dropdown-item" type="button">My declarations</button>
+              <button class="dropdown-item" type="button">Balance</button>
+              <button class="dropdown-item" type="button">Settings</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menuBar">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="mobileMenu">
+        <div class="langLogin">
+          <select id="selectLanguages">
+            <option value="AZE">AZE</option>
+            <option value="EN">EN</option>
+            <option value="RU">RU</option>
+          </select>
+          <p>SHAIG MURADOV</p>
+        </div>
+        <ul class="pagesLink">
+          <li><a href="">how it works</a></li>
+          <li><a href="">buy for me</a></li>
+          <li><a href="">shipping calculator</a></li>
+          <li><a href="">news</a></li>
+          <li><a href="">contacts</a></li>
+        </ul>
+      </div>
+      <div class="layoutMobile"></div>
+    </div>
+  </header>
+
+
+  <section id="userInfoSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 userInfo">
+          <div class="profilePhotoUser" style="background-image: url('../assets/userPhoto.png');"></div>
+          <div class="moreInfoUser">
+            <h3>
+              SHAIG MURADOV
+            </h3>
+            <p class="customerId">
+              CUSTOMER code: <span>#7465328</span>
+            </p>
+            <p class="dateLastDay">
+              Last 30 days- 0.00$
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 balanceUser">
+          <h5>
+            Balance (USD)
+          </h5>
+          <ul>
+            <li>
+              <p>$ USD: 0.00</p>
+            </li>
+            <li>
+              <p>‎₺ TRY: 0.00</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 btnsUser">
+          <ul>
+            <li><button><i class="fa fa-box"></i> Order <i class="fa fa-plus"></i></button></li>
+            <li><button><i class="fa fa-file"></i> Add a declaration</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="balance">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="leftMenuLinks">
+            <li class="activeLink"><a href="">My foreign addresses</a></li>
+            <li><a href="">ORDERS</a></li>
+            <li><a href="">My DECLARATIONS</a></li>
+            <li><a href="">BALANCE</a></li>
+            <li><a href="">SETTINGS</a></li>
+          </ul>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-4">
+              <input type="text" placeholder="Order URL">
+            </div>
+            <div class="col-md-4">
+              <input type="text" placeholder="Count">
+            </div>
+            <div class="col-md-4 form-group selectField">
+              <!-- <input type="text" placeholder="Count"> -->
+              <label for="types">
+                Product type
+              </label>
+              <select class="selectpicker form-control" multiple="" data-live-search="true"
+                data-live-search-placeholder="Search type..." data-header="Select product types">
+                <option value="4"> Іграшки,дитячі товари,ігри</option>
+                <option value="14">Інструменти</option>
+                <option value="16">Інше</option>
+                <option value="17">Авто, мото та велосипедні запчастини</option>
+                <option value="15">Аксесуари</option>
+                <option value="3">Взуття</option>
+                <option value="18">Вітаміни, ліки, харчові добавки, продукти харчування, їжа</option>
+                <option value="12">Господарські товари</option>
+                <option value="5">Засоби особистої гігієни</option>
+                <option value="10">Канцелярські товари</option>
+                <option value="6">Косметика</option>
+                <option value="11">Меблі</option>
+                <option value="8">Музичне обладнення</option>
+                <option value="2">Одяг</option>
+                <option value="9">Побутова електроніка</option>
+                <option value="13">Рибальські та дайвінг-товари</option>
+                <option value="7">Спортивнi твори</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <input type="text" placeholder="Size">
+            </div>
+            <div class="col-md-4">
+              <input type="text" placeholder="Amount">
+            </div>
+            <div class="col-md-4">
+              <input type="text" placeholder="Shipping cost">
+            </div>
+            <div class="col-md-4">
+              <input type="text" placeholder="Total (+%)">
+            </div>
+            <div class="col-md-12">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="col-md-12 descriptionAdd">
+              <h5 class="text-center">
+                Total orders : 0 (USD)
+              </h5>
+              <p>
+                Now you can send all the links you want in the form of 1 order. To do this, you need to add the next
+                link by clicking the "Add Order" button in the lower right corner of the screen.
+              </p>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">There is liqued inside the product</label>
+              </div>
+            </div>
+            <div class="col-md-12 btnOrder">
+              <button class="addOrder">
+                Add an order
+              </button>
+            </div>
+            <div class="col-md-12 btnSend">
+              <button class="btnTopUpRight">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 whiteLogo">
+          <a href="">
+            <img class="img-fluid" src="../assets/whiteLogo.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <ul class="siteMap">
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">Tarrifs</a></li>
+            <li><a href="">LOGISTIC TERMS</a></li>
+            <li><a href="">SERVICES</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <ul class="siteMap">
+            <li><a href="">SHOPS</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">NEWS</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <ul class="appLinks">
+            <li>
+              <a href="">
+                <img class="img-fluid" src="../assets/google.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img class="img-fluid" src="../assets/ios.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap-select.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
