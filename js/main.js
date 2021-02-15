@@ -14130,3 +14130,9 @@
   function (t, e, i) {},
 ]);
 
+
+// Multi seletcpicker
+$(".dropdown-toggle").on("click", () => {
+  $('.bootstrap-select.open').removeClass('open');
+  console.log("Working");
+})

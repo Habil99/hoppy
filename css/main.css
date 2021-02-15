@@ -17314,7 +17314,7 @@ footer .appLinks li a {
 
 #balance .bootstrap-select .dropdown-menu .popover-title {
   padding: 10px;
-  background: #fd7e14;
+  background: #eb7018;
   color: #fff;
 }
 
@@ -17327,7 +17327,7 @@ footer .appLinks li a {
   max-height: 300px !important;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #fd7e14 transparent;
+  scrollbar-color: #eb7018 transparent;
   max-width: 150%;
 }
 
@@ -17342,7 +17342,7 @@ footer .appLinks li a {
 }
 #balance .bootstrap-select .dropdown-menu::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #fd7e14;
+  background-color: #eb7018;
 }
 
 #balance .bootstrap-select button.btn .bs-caret .caret {
@@ -17361,7 +17361,7 @@ footer .appLinks li a {
 }
 
 #balance .bootstrap-select .dropdown-menu ul li a[aria-selected="true"] {
-  background: #fd7e14 !important; 
+  background: #eb7018 !important; 
   color: white;
 }
 
@@ -17388,4 +17388,11 @@ footer .appLinks li a {
   #balance .bootstrap-select .dropdown-menu ul li a span {
     font-size: 16px;
   }
+}
+
+#balance .dropdown-menu.hide {
+  display: none !important;
+}
+#balance .dropdown-menu.show {
+  display: block !important;
 }
